@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="editor-container">
+        <div class="toolbar">
+            <button id="bold-btn" title="Bold"><b>B</b></button>
+            <button id="italic-btn" title="Italic"><i>I</i></button>
+            <button id="underline-btn" title="Underline"><u>U</u></button>
+            <button id="undo-btn" title="Undo">⟲</button>
+            <button id="redo-btn" title="Redo">⟳</button>
+        </div>
+        <div class="editor" contenteditable="true" id="text-editor">
+            Start editing here...
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
